@@ -3,6 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import iView from 'iview'
+
+import './common/sass/index.scss'
+import './common/sass/iview-variables.less'
+
+Vue.use(iView)
 
 Vue.config.productionTip = false
 
